@@ -1,4 +1,4 @@
-# Using Kats to work over time-series data
+# Using Kats to work with time-series data
 
 Facebook (Meta) AI, published Kats (https://facebookresearch.github.io/Kats/), a one stop shop for time series analysis in Python.
 
