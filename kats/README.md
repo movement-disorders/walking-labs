@@ -1,6 +1,6 @@
 # Using Kats to work with time-series data
 
-Facebook (Meta) AI, published Kats (https://facebookresearch.github.io/Kats/), a one stop shop for time series analysis in Python.
+[Engineering at Meta](https://engineering.fb.com/) team, [published](https://engineering.fb.com/2021/06/21/open-source/kats/) Kats (https://facebookresearch.github.io/Kats/), a one stop shop for time series analysis in Python.
 
 Our experiment ultimately consists of making use of it to *deal with* walking related data coming from acceleromenter(s) and gyroscope(s).
 
