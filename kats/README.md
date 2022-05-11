@@ -27,6 +27,8 @@ docker run -i -t -p 8888:8888 continuumio/miniconda3 /bin/bash -c "\
     --no-browser --allow-root"
 ```
 
+> There's also the option to use VS Code to run/edit the Notebooks. (Documentation to come in the future).
+
 Once `NotebookApp` gets launched, copy the `http://127.0.0.1[...]` URL that gets printed on screen, head to your browser (in your Docker host machine), and navigate to it.
 
 Open the main notebook (located at `./main.ipynb`, assuming we're looking in the `kats` folder, after cloning this repo. Then, run it. This will install all required dependencies to run Kats inside the running container.
