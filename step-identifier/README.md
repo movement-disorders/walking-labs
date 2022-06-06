@@ -17,14 +17,13 @@ We want to come up with an AI+Sensors packed dedicated weareable, capable of pro
 
 > The hardware side specs will also be published and accessible here, so anyone can hack it.
 
+## Hypothesis
+Using a single device integrating an Acc+Gyro combo located at a subjects lower back (Sacrum area), is enough to get readings about its activity (walking is what we're immediately after). We want to get Gait, Stride, Step, Cycle and Laterality data. All this data will be constantly gathered through the sensors and fed to a trained AI model, capable of detecting when things are about to turn wrong, providing either haptic and auditory feedback. Besides real time obtained results will be stored for later analysis.
+
 ## Selected approach
 To support our initial hypothesis, we're planning to gather all the information required, from a single device, that will hold both an accelerometer + gyroscope, giving a total of "6 degrees of freedom". As we'll show in the companion notebook, that's required to recognize step occurrences during a walking session (accelerometer), and derive laterality as well (gyroscope). The device will be located at the Sacrum area, adhered to the subject's body through a belt or double sided tape, to ensure a "noise-free" data capture.
 
 ## Bits & pieces
-This whole experiment encompasses different efforts: sampling data, model training, electronics design and manufacturing (sounds bigger than it actually is), embedded development, operate a working model in real time, testing, hacking an all in one device, etc. It definitely exceeds an isolated experiment as "Step-Id", but we needed a kickstart to tell you about this bigger result we're trying to achieve.
-
-*[in-progress-area]*
-## Hypothesis
-Using a single device integrating an Acc+Gyro combo located at a subjects lower back (Sacrum area), is enough to get readings about its activity (walking is what we're immediately after). We want to get Gait, Stride, Step, Cycle and Laterality data. All this data will be constantly gathered through the sensors and fed to a trained AI model, capable of detecting when things are about to turn wrong, providing either haptic and auditory feedback. Besides real time obtained results will be stored for later analysis.
+This whole experiment encompasses different efforts: sampling data, model training, electronics design and manufacturing (sounds bigger than it actually is), embedded development, operate a working model in real time, testing, hacking an all in one device, etc. It definitely exceeds an isolated experiment as "Step-Id", but we needed a kickstart to tell you about this bigger result 
 
 
