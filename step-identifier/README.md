@@ -24,7 +24,7 @@ To support our initial hypothesis, we're planning to gather all the information 
 This whole experiment encompasses different efforts: sampling data, model training, electronics design and manufacturing (sounds bigger than it actually is), embedded development, operate a working model in real time, testing, hacking an all in one device, etc. It definitely exceeds an isolated experiment as "Step-Id", but we needed a kickstart to tell you about this bigger result we're trying to achieve.
 
 *[in-progress-area]*
-## Hpypothesis
+## Hypothesis
 Using a single device integrating an Acc+Gyro combo located at a subjects lower back (Sacrum area), is enough to get readings about its activity (walking is what we're immediately after). We want to get Gait, Stride, Step, Cycle and Laterality data. All this data will be constantly gathered through the sensors and fed to a trained AI model, capable of detecting when things are about to turn wrong, providing either haptic and auditory feedback. Besides real time obtained results will be stored for later analysis.
 
 
