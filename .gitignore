@@ -1,2 +1,5 @@
 .DS_Store
 datasets/wisdm
+datasets/uci-har/
+datasets/uci-har-raw/
+

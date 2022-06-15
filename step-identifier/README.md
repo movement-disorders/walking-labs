@@ -25,3 +25,22 @@ To support our initial hypothesis, we're planning to gather all the information 
 
 ## Bits & pieces
 This whole experiment encompasses different efforts: sampling data, model training, electronics design and manufacturing (sounds bigger than it actually is), embedded development, operate a working model in real time, testing, hacking an all in one device, etc. It definitely exceeds an isolated experiment as "Step-Id", but we needed a kickstart to tell you about this bigger result we're trying to achieve.
+
+---
+# References
+### LSTMs for Human Activity Recognition Time Series Classification
+
+> **Source** https://machinelearningmastery.com/how-to-develop-rnn-models-for-human-activity-recognition-time-series-classification/
+
+---
+### Dataset Source:
+
+Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Luca Oneto(1) and Xavier Parra(2) 
+1 - Smartlab, DIBRIS - UniversitÃ  degli Studi di Genova, Genoa (16145), Italy. 
+2 - CETpD - Universitat PolitÃ¨cnica de Catalunya. Vilanova i la GeltrÃº (08800), Spain 
+har '@' smartlab.ws 
+www.smartlab.ws
+
+Since 2015, the UCI HAR Dataset this experiment (`uci-lstm.ipynb`) uses, is available for download with the raw data as well.
+* Original (preprocessed): https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* V2 (includes raw data): https://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions
