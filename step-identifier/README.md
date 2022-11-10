@@ -1,13 +1,13 @@
 # Step Idenfifier experiment
 
-**Disclaimer:** this experiment is focused on those people with both: a movement disorder, and waling ability (with or without a can).
+**Disclaimer:** this experiment is focused on those people with both: a movement disorder, and walking ability (with or without a can).
 
-Towards decyphering how to be able to assist an individual during a walking session, the need to recognize walking mechanics patterns becomes a must. In this multi-step experiment, the initial focus sits on recognizing the walking pattern. We see in multiple HAR (Human Activity Recognition) related literature *[references-here]* that it's possible to derive this info, in much or less specificity, by locating a set of sensors in the subject's body, and measure from there. Once understood, we'll test on feeding an ML algorithm with preprocessed data to train itself on recognizong walking patterns. A later step after validation, is to detect anomalies in real time and reacting to them (more on these steps later).
+Towards decyphering how to be able to assist an individual during a walking session, the need to recognize walking mechanics patterns becomes a must. In this multi-step experiment, the initial focus sits on recognizing the walking pattern. We see in multiple HAR (Human Activity Recognition) related literature *[references-here]* that it's possible to derive this info, in much or less specificity, by locating a set of sensors in the subject's body, and measure from there. Once understood, we'll test on feeding an ML algorithm with preprocessed data to train itself on recognizing walking patterns. A later step after validation, is to detect anomalies in real time and reacting to them (more on these  later).
 
 ## Why?
 Advances were made in fall detection techniques and walking pattern analysis. Today these are performed by multi-purpose wearables. People with movement disorders would greatly benefit from applying AI to move a step further into the **prevention space**, to ensure a steady walk while being thoughtfully monitored when exercising.
 
-> "Being a person with a movement disorder, makes you appreciate the walking ability that the common human body has to do it almost without thinking."
+> "Being a person with a movement disorder makes you appreciate the walking ability that the human body has embedded in an automated fashion."
 
 ## How?
 By analizing and real-time monitoring each walking session. Detailing progress and events to be reviewed by the individual and shared with care givers.
