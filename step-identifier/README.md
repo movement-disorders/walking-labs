@@ -7,7 +7,7 @@ Towards decyphering how to be able to assist an individual during a walking sess
 ## Why?
 Advances were made in fall detection techniques and walking pattern analysis. Today these are performed by multi-purpose wearables. People with movement disorders would greatly benefit from applying AI to move a step further into the **prevention space**, to ensure a steady walk while being thoughtfully monitored when exercising.
 
-> "Being a person with a movement disorder makes you appreciate the walking ability that the human body has embedded in an automated fashion."
+> "Being a person with a movement disorder makes you appreciate the walking ability that the human body has imprinted within."
 
 ## How?
 By analizing and real-time monitoring each walking session. Detailing progress and events to be reviewed by the individual and shared with care givers.
@@ -24,7 +24,7 @@ Using a single device integrating an Acc+Gyro combo located at a subjects lower 
 To support our initial hypothesis, we're planning to gather all the information required, from a single device, that will hold both an accelerometer + gyroscope, giving a total of "6 degrees of freedom". As we'll show in the companion notebook, that's required to recognize step occurrences during a walking session (accelerometer), and derive laterality as well (gyroscope). The device will be located at the Sacrum area, adhered to the subject's body through a belt or double sided tape, to ensure a "noise-free" data capture.
 
 ## Bits & pieces
-This whole experiment encompasses different efforts: sampling data, model training, electronics design and manufacturing (sounds bigger than it actually is), embedded development, operate a working model in real time, testing, hacking an all in one device, etc. It definitely exceeds an isolated experiment as "Step-Id", but we needed a kickstart to tell you about this bigger result we're trying to achieve.
+This whole experiment encompasses different efforts: sampling data, model training, electronics design and manufacturing, embedded development, operate a working model in real time, testing, hacking an all in one device, etc. It definitely exceeds an isolated experiment as "Step-Id", but we needed a kickstart to tell you about this bigger result we're trying to achieve.
 
 ---
 # References
